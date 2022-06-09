@@ -9,7 +9,6 @@ body {
 .main{
     display: flex;
     justify-content: center;
-    height: 50vh;
     margin-bottom: 1.5rem;
 }
 
@@ -33,10 +32,10 @@ img {
 .imgcontainer{
     border-radius: 50%;
     overflow: hidden;
-    height: 25rem;
+    height: 15rem;
+    width: 15rem;
     display: flex;
     align-items: flex-start;
-    margin-top: 2.75rem;
 }
 
 .imgcontainer:hover{
@@ -47,14 +46,12 @@ img {
 .information{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 50vh;
+    align-items: flex-start;
 }
 
 .box{
     background-color: rgba(0, 0, 0, 0.5);
     color:white;
-    height: 100%;
     width: 30%;
     border-radius: 15px;
     text-align: center;
@@ -74,7 +71,7 @@ h2{
 }
 
 p{
-    font-size: 1.3rem;
+    font-size: 0.9rem;
 }
 
 .video{
